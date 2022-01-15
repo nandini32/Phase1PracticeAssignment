@@ -1,0 +1,49 @@
+
+public class ClassObject {
+
+	public static void main(String[] args) {
+	
+//		Syntax for creating an object
+//		1. Type identifier = new Type();
+//		2. Type identifier;
+//			identifier = new Type();
+//		3. new Type();
+		
+//		Create an object of Human
+//		Human ref = new Human();
+//		Human Nandini;
+//		sakshi = new Human();
+		
+//		Access properties of the class by it's object
+		new Human().breathe();
+		Human first = new Human();
+		Human second = new Human();//We can create as many objects as we require of a class
+//		.eat();
+//		ref.legs = 2;
+//		ref.eyes = 2;
+//		ref.breathe();
+//		
+//		System.out.println(ref.legs);
+
+	}
+
+}
+
+
+
+class Human{
+	int legs, eyes;
+	double heart, kydneys;
+	
+	void walk() {
+		System.out.println("Inside Human's walk..");
+	}
+	
+	void eat() {
+		System.out.println("Inside Human's eat...");
+	}
+	
+	void breathe() {
+		System.out.println("Inside Human's breathe...");
+	}
+}
