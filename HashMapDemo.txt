@@ -1,0 +1,25 @@
+/**
+ * @author Nandini Gorkal
+ *
+ * 12-Jan-2022
+ */
+
+package PddfTraining;
+
+import java.util.TreeMap;
+
+public class TreeMapDemo {
+
+	public static void main(String[] args) {
+		HashMap<String, Double> map = new HashMap<>();
+		
+		map.put("Nandini", 56000.908);
+		map.put("Arvind", 35000.89);
+		map.put("Saianusha", 75000.89);
+		map.put("Nisha", 47000.340);
+		
+		map.forEach((k, v) -> System.out.println("Key: " + k + ", Value : " + v));
+
+	}
+
+}
